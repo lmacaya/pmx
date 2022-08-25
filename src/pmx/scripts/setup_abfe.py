@@ -124,8 +124,8 @@ included in the restraints, or let the script choose them automatically.
                         metavar='float',
                         dest='conc',
                         help='Specify salt concentration (mol/liter). '
-                        'Default is 0.15 M.',
-                        default=None,
+                        'Default is no salt added.',
+                        default=0,
                         type=float)
     parser.add_argument('--pname',
                         metavar='pname',
